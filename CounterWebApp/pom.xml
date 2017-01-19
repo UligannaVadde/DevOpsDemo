@@ -176,7 +176,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.12</version>
 				<executions>
-					<execution>   
+					<execution> 
+					<id>unit-test</id>
 					<configuration>
 						<argLine>${jacoco.ut.arg}</argLine>
 						<excludes>
@@ -185,7 +186,8 @@
 						</excludes>
 					</configuration>
 					</execution>
-					<execution>            
+					<execution>
+						<id>dynatrace-test</id>
 						<configuration>
 							<argLine>-agentpath:"C:\Program Files\dynaTrace\Dynatrace 6.3\agent\lib64\dtagent.dll"=name=JavaAgent,server=localhost:9998,optionTestRunIdJava=${dtTestrunID}</argLine>
 						<excludes>
