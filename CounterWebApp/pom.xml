@@ -186,9 +186,6 @@
 							<exclude>**/it/**</exclude>
 						</excludes>
 						</configuration>
-						         <goals>
-              							<goal>query</goal>
-            						 </goals>
 					</execution>
 				</executions>
 			</plugin>
@@ -207,9 +204,6 @@
 							<exclude>**/it/**</exclude>
 						</excludes>
 						</configuration>
-						         <goals>
-              							<goal>query</goal>
-            						 </goals>
 					</execution>
 				</executions>
 			</plugin>
