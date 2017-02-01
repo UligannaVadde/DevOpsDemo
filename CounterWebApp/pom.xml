@@ -177,7 +177,7 @@
 				<version>2.12</version>
 					<configuration>
 						<argLine>${jacoco.ut.arg}</argLine>
-						<argLine>-agentpath:"C:\Program Files\dynaTrace\Dynatrace 6.3\agent\lib64\dtagent.dll"=name=JavaAgent,server=localhost:9998,optionTestRunIdJava=${dtTestrunID}</argLine>
+						<!--<argLine>-agentpath:"C:\Program Files\dynaTrace\Dynatrace 6.3\agent\lib64\dtagent.dll"=name=JavaAgent,server=localhost:9998,optionTestRunIdJava=${dtTestrunID}</argLine>-->
 						<excludes>
 							<exclude>**/at/**</exclude>
 							<exclude>**/it/**</exclude>
