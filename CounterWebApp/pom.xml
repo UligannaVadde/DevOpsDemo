@@ -232,7 +232,7 @@
 		</plugins>
 
 	</build>
-	<!-- ATDD Testing -->
+	<!-- ATDD Testing by PChenni-->
 	<profiles>
 		<profile>
 			<id>acceptance</id>
