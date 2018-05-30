@@ -30,7 +30,7 @@
 
 	<dependencies>
 
-		<!-- Unit Test ------>
+		<!-- UnitTest -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
