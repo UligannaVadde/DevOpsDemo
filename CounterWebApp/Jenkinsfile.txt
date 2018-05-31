@@ -16,8 +16,8 @@ pipeline {
             steps 
             {
                 git (
-                    url: 'https://github.com/prabuvnc/DevOpsDemo.git',
-                    credentialsId: '107d9e86-3fc4-4657-b644-773cf95ca284'
+                    url: 'https://github.com/UligannaVadde/DevOpsDemo.git',
+                    credentialsId: '32a9518d-eaf7-421b-90bd-2f5e5fbbaebf'
                 )
             }
             
