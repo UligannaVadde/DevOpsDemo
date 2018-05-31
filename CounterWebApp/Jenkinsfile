@@ -17,7 +17,7 @@ pipeline {
             {
                 git (
                     url: 'https://github.com/UligannaVadde/DevOpsDemo.git',
-                    credentialsId: '32a9518d-eaf7-421b-90bd-2f5e5fbbaebf'
+                    credentialsId: 'd36b1098-9ed0-4359-93b4-64128c9f6ff9'
                 )
             }
             
